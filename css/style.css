@@ -1,0 +1,25 @@
+body {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 22px;
+    
+    background-color: #859f91;
+}
+
+h2 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 60.35px;
+}
+
+h3 {
+    font-size: 35px;
+    color: #ffffff;
+    line-height: 41px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #323232;
+    line-height: 30px;
+}
