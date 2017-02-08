@@ -372,11 +372,8 @@ body {
 }
 
 .btn-two {
-    position: relative;
     display: inline-block;
     vertical-align: top;
-    left: 315px;
-    padding: 0px 24px;
     border-radius: 40px;
     text-align: center;
     background: -webkit-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
@@ -386,6 +383,13 @@ body {
     background: linear-gradient(0deg, #e74a35 0%, #f26843 100%);
     box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
     margin-bottom: 22px;
+    position: relative;
+}
+
+.btn-two-1 {
+    padding: 0px 24px;
+    position: relative;
+    left: 315px;
 }
 
 .btn-two::second-child {
@@ -820,18 +824,22 @@ input[type="text"] {
     opacity: 0.5;
 }
 
-.emailing-2 .btn-two {
-    box-sizing:  border-box;
-    margin: -50px  0px 0px 65px;
-    padding: 9px 15px;
-    
+.btn-two-2  {
+    box-sizing: border-box;
+    position: relative;
+    top: 25px;
+    right: 10px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 40px 30px 20px;
     color:  #fefefe;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
 }
-
+/*
+padding: 0px 24px;
+*/
 .map-block {
     display: flex;
     width: 1200px;
@@ -841,8 +849,7 @@ input[type="text"] {
         url(../img/map-ice-cream.png), 
         url(../img/map-block.jpg);
     background-repeat: no-repeat;
-    background-position: 265px 140px,
-        0px;
+    background-position: 265px 140px,0px;
 }
 
 .map-block-adress {
