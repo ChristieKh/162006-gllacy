@@ -183,7 +183,7 @@ h4 {
 }
 
 .catalog-hit {
-   display: none;  */
+   display: none; 
     position: absolute;
     top: 50px;
     left: 0px;
@@ -342,9 +342,6 @@ h4 {
     background-position: 15px 5px;
 }
 
-.backet {
-  /*  display: none;  */
-}
 .backet span {
     display: block;
     padding-left: 20px;
@@ -965,7 +962,7 @@ input[type="password"] {
 }
 
 .btn-banner2 {
-     box-sizing: border-box;
+    box-sizing: border-box;
     margin-right: 37px;
     margin-left: 35px;
     padding: 9px 22px 12px 21px;
@@ -998,12 +995,12 @@ input[type="password"] {
 .breadcrumbs p, .breadcrumbs a {
     padding: 0;
     margin: 0;
-   font-size: 14px;
-   line-height: 16px;
-   color: #ffffff;
-   font-weight: 500;
-   text-align: left;
-   text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
 }
 
 .breadcrumbs p {
@@ -1930,7 +1927,6 @@ a.current {
 
 .modal-content {
     display: none;
-  /*  padding:  222px 239px; */
     box-sizing: border-box;
     margin-left: -237px;
     color: #000000;  
