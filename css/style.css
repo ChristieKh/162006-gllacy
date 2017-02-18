@@ -846,31 +846,31 @@ input[type="password"] {
     background-color: rgba(254,254,254,0.4);
 }
 
-#btn-1:checked ~ .site-wrapper #slide1,
-#btn-2:checked ~ .site-wrapper #slide2,
-#btn-3:checked ~ .site-wrapper #slide3 {
+.btn-1:checked ~ .site-wrapper .slide1,
+.btn-2:checked ~ .site-wrapper .slide2,
+.btn-3:checked ~ .site-wrapper .slide3 {
     display: block;
 }
 
-#btn-1:checked ~ .site-wrapper {
+.btn-1:checked ~ .site-wrapper {
     background-color: #849d8f;
     background-image: url("../img/background-1.jpg");
     width: 100%;
 }
 
-#btn-2:checked ~ .site-wrapper {
+.btn-2:checked ~ .site-wrapper {
   background-color: #8996a6;
   background-image: url("../img/background-2.jpg");
 }
 
-#btn-3:checked ~ .site-wrapper {
+.btn-3:checked ~ .site-wrapper {
   background-color: #9d8b84;
   background-image: url("../img/background-3.jpg");
 }
 
-#btn-1:checked ~ .site-wrapper label[for="btn-1"],
-#btn-2:checked ~ .site-wrapper label[for="btn-2"],
-#btn-3:checked ~ .site-wrapper label[for="btn-3"] {
+.btn-1:checked ~ .site-wrapper label[for="btn-1"],
+.btn-2:checked ~ .site-wrapper label[for="btn-2"],
+.btn-3:checked ~ .site-wrapper label[for="btn-3"] {
     background-color: #ffffff;
 }
  
