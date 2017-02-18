@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/minimize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">  
   </head>
@@ -222,7 +222,7 @@
                       <p>Для заказов по телефону:</p>
                   <b>8 812 450-25-25</b>
                      <p>(с 10 до 20 ежедневно)</p>
-                  <a href="#" class="btn-map btn-two">Форма обратной связи</a> 
+                  <a href="form.html" class="btn-map btn-two">Форма обратной связи</a> 
                   </div>
               </div>
           </div>
@@ -263,30 +263,7 @@
           </form>
     </div>
     
-    
-    <script>
-        var link = document.querySelector(".btn-map");
-        var popup = document.querySelector(".modal-content");
-        var close = popup.querySelector(".modal-content-close");
-        
-        
-        link.addEventListener("click", function(event) {
-            event.preventDefault();
-            popup.classList.add("modal-content-show");
-            login.focus();
-        });
-        close.addEventListener("click", function(event) {
-        event.preventDefault();
-        popup.classList.remove("modal-content-show");  });
-         window.addEventListener("keydown", function(event) {
-        if (event.keyCode === 27) {
-          if (popup.classList.contains("modal-content-show")) {
-            popup.classList.remove("modal-content-show");
-          }
-        }
-      });
-        
-    
-    </script>
+    <script src="js/minimizejs.js"></script>
+   
   </body>
 </html>

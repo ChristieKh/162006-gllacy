@@ -1,4 +1,4 @@
-      var link = document.querySelector(".btn-map");
+        var link = document.querySelector(".btn-map");
         var popup = document.querySelector(".modal-content");
         var close = popup.querySelector(".modal-content-close");
         
