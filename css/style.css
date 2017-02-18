@@ -4,6 +4,7 @@ body {
     min-height: 1650px;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -1346,7 +1347,7 @@ form {
     position: relative;
     bottom: 62px;
     margin: 0;
-    padding 0;
+    padding: 0;
     text-align: left;
     text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
     font-weight: 700;
@@ -1973,20 +1974,19 @@ a.current {
 }
 
 .modal-content-close::before {
-  transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .modal-content-close::after {
-  transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .modal-content h2 {
     margin: 15px;
     padding: 0;
     margin-bottom: 20px;
-
-  font-size: 24px;
-  line-height: 28px;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .modal-content input {
