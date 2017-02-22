@@ -771,7 +771,8 @@ td {
     font-size: 22px;
     line-height: 24px;
     margin: 4px 0 0;
-    padding: 0
+    padding: 0;
+    text-decoration: none;
 }
 
 .slider {
