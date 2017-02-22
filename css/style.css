@@ -560,7 +560,6 @@ input[placeholder]:hover .password label {
     position: relative;
     top: 45px;
     right: 0px;
-    position: absolute;
     height: 20px;
     width: 90px;
 }
@@ -752,7 +751,6 @@ td {
 
 .backet-content .results {
     font-family: "Roboto", "Arial", sans-serif;
-    ;
     color: #323232;
     font-size: 14px;
     font-weight: 700;
@@ -1161,12 +1159,13 @@ form {
 }
 
 .radio-item,
-.range,
+.range
+,
 .additive-item,
 .additive-btn {
     margin-top: 9px;
     margin-bottom: 5px;
-    padding: 7px 6px;
+    padding: 6px 7px;
     background-color: rgba(248, 247, 244, 0.2);
     border-radius: 20px;
     color: #ffffff;
@@ -1280,8 +1279,16 @@ form {
     display: -ms-flexbox;
     display: flex;
     width: 415px;
-    height: 37px;
+    height: 35px;
     box-sizing: border-box;
+}
+
+.radio-item,
+.range {
+    margin-top: 9px;
+    margin-bottom: 0px;
+    padding: 6px 7px;
+    background-color: rgba(248, 247, 244, .2);
 }
 
 .radio {
@@ -1290,9 +1297,9 @@ form {
 
 .radio-label {
     cursor: pointer;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 28px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-right: 5px;
     background: url("../img/radiobtn.png") no-repeat 0px 0px;
     vertical-align: middle;
 }
@@ -1303,7 +1310,7 @@ form {
 
 .radio-element {
     font-weight: 400;
-    padding-left: 4px;
+    padding-left: 7px;
     padding-right: 2px;
     padding-top: 2px;
 }
@@ -1311,7 +1318,7 @@ form {
 .radio-element span {
     display: inline-block;
     vertical-align: top;
-    margin: 0px 3px 0px 30px;
+    margin: -3px 5px 0 31px;
 }
 
 .radio-element span.last-child {
@@ -1324,7 +1331,7 @@ form {
 }
 
 .additive-label {
-    margin-top: 6px;
+    margin-top: 1px;
 }
 
 .additive {
@@ -1334,17 +1341,17 @@ form {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: -7px;
+    margin-top: -2px;
 }
 
 .additive-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 692px;
+    width: 690px;
     margin-bottom: 0px;
-    margin-top: 11px;
-    padding: 8px 5px;
+    margin-top: 9px;
+    padding: 9px 5px;
 }
 
 .checkbox {
@@ -1370,7 +1377,7 @@ form {
 }
 
 .additive-btn {
-    margin-left: 13px;
+    margin-left: 18px;
     border: 2px solid #ffffff;
     width: 142px;
     margin-bottom: 0px;
@@ -1834,7 +1841,7 @@ iframe {
     border-radius: 15px;
     position: relative;
     left: 871px;
-    top: -370px;
+    margin-top: -370px;
     padding-left: 25px;
     padding-top: 15px;
     z-index: 200;
@@ -1977,6 +1984,9 @@ a.current {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    width: 100%;
     box-sizing: border-box;
     width: 196px;
     margin-right: 226px;
@@ -2072,6 +2082,8 @@ a.current {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+    box-sizing:border-box;
+    max-width: 100%;
     width: 333px;
     margin-right: 128px;
     margin-top: 15px;

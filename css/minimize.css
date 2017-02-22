@@ -1901,17 +1901,17 @@ a.current {
 .main-footer-layout {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex
+    display: flex;
 }
 
 .main-footer-layout::before {
-    display: none
+    display: none;
 }
 
 .main-footer .footer-catalog {
     box-sizing: border-box;
     border-top: 1px solid rgba(255, 255, 255, .302);
-    padding: 17px 0 7px
+    padding: 17px 0 7px;
 }
 
 .footer-social {
@@ -1921,7 +1921,7 @@ a.current {
     box-sizing: border-box;
     width: 196px;
     margin-right: 226px;
-    margin-top: 18px
+    margin-top: 18px;
 }
 
 .social-btn {
@@ -1929,7 +1929,7 @@ a.current {
     height: 3px;
     border: 3px solid rgba(254, 254, 254, .5);
     border-radius: 50px;
-    margin-right: 9px
+    margin-right: 9px;
 }
 
 .social-btn-fb,
