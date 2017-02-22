@@ -1788,7 +1788,7 @@ iframe {
     border-radius: 15px;
     position: relative;
     left: 871px;
-    top: -370px;
+    margin-top: -370px;
     padding-left: 25px;
     padding-top: 15px;
     z-index: 200
